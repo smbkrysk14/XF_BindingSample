@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF_BindingSample;assembly=XF_BindingSample"
+             x:Class="XF_BindingSample.MainPage">
+
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="{Binding LblCount}"/>
+        <Button Text="カウントアップ" Command="{Binding CountUpCommand}"/>
+    </StackLayout>
+
+</ContentPage>
